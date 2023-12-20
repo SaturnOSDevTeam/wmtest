@@ -47,4 +47,10 @@ static const keybind keys[] = {
 	{ MOD | SHIFT, XK_2,     send_ws,   1 },
 	{ MOD | SHIFT, XK_3,     send_ws,   2 },
 	{ MOD | SHIFT, XK_4,     send_ws,   3 },
+
+	// Keybindings for launching applications
+	{ MOD, XK_r, spawn, "rofi" },
+	{ MOD, XK_a, spawn, "alacritty" },
+	{ MOD, XK_f, spawn, "firefox" },
+	{ MOD, XK_n, spawn, "nemo" },
 };
